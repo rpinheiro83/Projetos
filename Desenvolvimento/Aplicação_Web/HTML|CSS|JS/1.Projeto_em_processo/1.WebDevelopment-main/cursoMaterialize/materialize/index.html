@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Materialize</title>
+</head>
+<body>
+    
+       
+        <div class="navbar-fixed">
+        <nav class="blue z-depth-0">             
+            <div class="nav-wrapper" >
+
+                <a href="#" class="brand-logo">Logo</a>
+
+                <a href="#" data-activates="menu-mobile" class="button-collapse right">
+                    <i class="material-icons">menu</i>
+                </a>
+
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+              </ul>
+            </div>        
+          </nav>
+        </div>
+            <!--Menu mobile-->
+          <ul id="menu-mobile" class="side-nav">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+          </ul>
+        
+          <div class="container">
+        <a href="#" class="btn red waves-effect waves-light">Botão </a>
+        
+
+
+
+        <div class="card-panel red z-depth-5 flow-text">
+            <p>Hello, World! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati excepturi at deleniti molestias labore ullam illo temporibus, voluptatum quam culpa quibusdam, quisquam pariatur? Cum ipsa architecto tenetur pariatur. Nulla, voluptatibus!</p>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m9 16">
+                <img src="img/image01.jpg" class="responsive-img circle" alt="">
+            </div>
+        </div>
+    
+    
+        <div class="row">
+            <div class="col s12 m9 l6 red">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias excepturi totam reiciendis fugit nulla. Tenetur alias, quaerat iusto mollitia sint, dolore tempora eum dolores numquam distinctio quam nisi officia magnam.
+            </div>
+            <div class="col s12 m3 l6 blue">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi saepe tenetur veritatis. Quisquam, perspiciatis! Sunt possimus provident fugit ex asperiores, molestiae vero, culpa incidunt hic placeat non eligendi obcaecati debitis.
+            </div>
+            <div class="col s12 m3 l6 yellow">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut aspernatur laboriosam tempore ex ratione? Perspiciatis, dolor aut omnis mollitia asperiores, voluptates, harum incidunt possimus odio quos unde esse amet. Doloremque!
+            </div>
+        </div>
+    
+
+        <div class="responsive-video" controls>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nic-7fTnTgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <table class="highlight">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Item Name</th>
+                <th>Item Price</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>Alvin</td>
+                <td>Eclair</td>
+                <td>$0.87</td>
+            </tr>
+            <tr>
+                <td>Alan</td>
+                <td>Jellybean</td>
+                <td>$3.76</td>
+            </tr>
+            <tr>
+                <td>Jonathan</td>
+                <td>Lollipop</td>
+                <td>$7.00</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!--Materialize JS-->
+    <script src="js/materialize.js"></script>
+
+    <script>
+        //Menu mobile    
+        $(".button-collapse").sideNav();
+    </script>
+
+</body>
+</html>
